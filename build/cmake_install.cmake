@@ -1,4 +1,4 @@
-# Install script for directory: /home/nonwibb/Documents/glengine
+# Install script for directory: /home/nonwibb/Documents/noragl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nonwibb/Documents/glengine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nonwibb/Documents/noragl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

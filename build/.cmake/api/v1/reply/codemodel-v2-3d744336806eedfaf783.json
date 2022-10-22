@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/nonwibb/Documents/glengine/build",
-		"source" : "/home/nonwibb/Documents/glengine"
+		"build" : "/home/nonwibb/Documents/noragl/build",
+		"source" : "/home/nonwibb/Documents/noragl"
 	},
 	"version" : 
 	{

@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/nonwibb/Documents/glengine -B/home/nonwibb/Documents/glengine/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/nonwibb/Documents/noragl -B/home/nonwibb/Documents/noragl/build
   description = Re-running CMake...
   generator = 1
 

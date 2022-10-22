@@ -225,6 +225,14 @@ build CMakeFiles/noragl.dir/main.cpp.o: CXX_COMPILER__noragl_Debug /home/nonwibb
   TARGET_COMPILE_PDB = CMakeFiles/noragl.dir/
   TARGET_PDB = noragl.pdb
 
+build CMakeFiles/noragl.dir/common/shader.cpp.o: CXX_COMPILER__noragl_Debug /home/nonwibb/Documents/noragl/common/shader.cpp || cmake_object_order_depends_target_noragl
+  DEP_FILE = CMakeFiles/noragl.dir/common/shader.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/noragl.dir
+  OBJECT_FILE_DIR = CMakeFiles/noragl.dir/common
+  TARGET_COMPILE_PDB = CMakeFiles/noragl.dir/
+  TARGET_PDB = noragl.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target noragl
@@ -233,7 +241,7 @@ build CMakeFiles/noragl.dir/main.cpp.o: CXX_COMPILER__noragl_Debug /home/nonwibb
 #############################################
 # Link the executable noragl
 
-build noragl: CXX_EXECUTABLE_LINKER__noragl_Debug CMakeFiles/noragl.dir/main.cpp.o | /usr/lib/libglfw.so.3.3
+build noragl: CXX_EXECUTABLE_LINKER__noragl_Debug CMakeFiles/noragl.dir/main.cpp.o CMakeFiles/noragl.dir/common/shader.cpp.o | /usr/lib/libglfw.so.3.3
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = /usr/lib/libglfw.so.3.3  -lGLEW  -lGL

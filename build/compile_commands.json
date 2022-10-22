@@ -3,5 +3,10 @@
   "directory": "/home/nonwibb/Documents/noragl/build",
   "command": "/usr/bin/g++ -g -o CMakeFiles/noragl.dir/main.cpp.o -c /home/nonwibb/Documents/noragl/main.cpp",
   "file": "/home/nonwibb/Documents/noragl/main.cpp"
+},
+{
+  "directory": "/home/nonwibb/Documents/noragl/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/noragl.dir/common/shader.cpp.o -c /home/nonwibb/Documents/noragl/common/shader.cpp",
+  "file": "/home/nonwibb/Documents/noragl/common/shader.cpp"
 }
 ]

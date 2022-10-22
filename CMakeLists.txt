@@ -14,7 +14,18 @@ set(ALL_LIBS
 	GLEW
     GL
 )
-add_executable(noragl main.cpp)
+
+file(GLOB common
+    "common/*.hpp"
+    "common/*.cpp"
+)
+
+file(GLOB shaders
+  "${CMAKE_CURRENT_SOURCE_DIR}/shader/*"
+)
+file(COPY ${shaders} DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+add_executable(noragl main.cpp ${common})
 target_link_libraries(noragl ${ALL_LIBS})
 
 

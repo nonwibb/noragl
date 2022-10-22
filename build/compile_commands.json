@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nonwibb/Documents/glengine/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/noragl.dir/main.cpp.o -c /home/nonwibb/Documents/glengine/main.cpp",
+  "file": "/home/nonwibb/Documents/glengine/main.cpp"
+}
+]

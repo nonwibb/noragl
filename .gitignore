@@ -11,5 +11,9 @@ install_manifest.txt
 build.ninja
 compile_commands.json
 CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+DartConfiguration.tcl
+.cmake/
 _deps
 
